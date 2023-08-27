@@ -1,0 +1,10 @@
+.Spinner img {
+    height: 72px;
+    display: block;
+    margin: 0px auto;
+}
+
+.Spinner {
+    background: #f4f1f1;
+    display: block;
+}

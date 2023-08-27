@@ -1,0 +1,25 @@
+.navbar img {
+    height: 68px;
+    width: 140px;
+    margin-left: 37px;
+}
+
+nav {
+    /* background: #171717; */
+    box-shadow: -2px -3px 12px gray;
+    background: #f4f1f1;;
+    z-index: 1;
+
+}
+
+
+
+.navbar-nav .nav-item .nav-link {
+    /* color: black; */
+    margin: 7px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #1a237e;
+}

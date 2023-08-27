@@ -1,0 +1,17 @@
+.News {
+    min-height: 90vh;
+    background: #f4f1f1;
+
+}
+
+.card {
+    background: #21252900;
+    box-shadow: 0px 3px 4px 0px gray;
+
+}
+
+.card .btn {
+    color: white;
+    background-color: #0a0a0fe3;
+
+}
