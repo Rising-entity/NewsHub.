@@ -9,6 +9,7 @@ export default function Science() {
 
     useEffect(() => {
         setLoading(true);
+        window.scrollTo(0, 0);
         getTrendingNews();
     }, []);
 

@@ -9,6 +9,7 @@ export default function Buisness() {
 
     useEffect(() => {
         setLoading(true);
+        window.scrollTo(0, 0);
         getTrendingNews();
     }, []);
 
