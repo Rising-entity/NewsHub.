@@ -3,7 +3,7 @@ import axios from 'axios';
 import Spinner from '../Spinner/Spinner';
 import "../News/News.css"
 
-export default function Sports() {
+export default function Technology() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
 
@@ -19,7 +19,7 @@ export default function Sports() {
             params: {
               country: 'in',
               language: 'hi',
-              topic: 'sports'
+              topic: 'technology'
             },
             headers: {
               'x-rapidapi-key': '320f7ae65dmsh19b108a0f306364p1cebf3jsn4805c8d23c92',

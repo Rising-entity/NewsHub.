@@ -5,8 +5,9 @@ import News from './Components/News/News';
 import Sports from './Components/News/Sports';
 import Ent from './Components/News/Entertainment';
 import Buisness from './Components/News/Buisness';
-import Politics from './Components/News/Politics';
+import Politics from './Components/News/Technology';
 import Science from './Components/News/Science';
+import Technology from './Components/News/Technology';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
             <Route exact path='/' element={< News />}></Route>
             <Route exact path='/sports' element={< Sports />}></Route>
             <Route exact path='/ent' element={< Ent />}></Route>
-            <Route exact path='/buis' element={< Buisness />}></Route>
-            <Route exact path='/Politics' element={< Politics />}></Route>
+            {/* <Route exact path='/buis' element={< Buisness />}></Route> */}
+            <Route exact path='/Technology' element={< Technology />}></Route>
             <Route exact path='/Science' element={< Science />}></Route>
           </Routes>
         </div>

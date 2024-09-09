@@ -39,19 +39,19 @@ export default function Navbar() {
                                     Entertainment
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/buis">
                                     Business
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
-                                <Link className="nav-link" to="/politics">
-                                    Politics
+                                <Link className="nav-link" to="/Technology">
+                                    Technology
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/science">
-                                    Science and Technology
+                                    Science 
                                 </Link>
                             </li>
                         </ul>
