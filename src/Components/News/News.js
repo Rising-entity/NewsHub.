@@ -17,15 +17,15 @@ export default function News() {
             method: 'GET',
             url: 'https://google-news22.p.rapidapi.com/v1/topic-headlines',
             params: {
-              country: 'in',
-              language: 'hi',
-              topic: 'business'
+                country: 'in',
+                language: 'hi',
+                topic: 'business'
             },
             headers: {
-              'x-rapidapi-key': '320f7ae65dmsh19b108a0f306364p1cebf3jsn4805c8d23c92',
-              'x-rapidapi-host': 'google-news22.p.rapidapi.com'
+                'x-rapidapi-key': '320f7ae65dmsh19b108a0f306364p1cebf3jsn4805c8d23c92',
+                'x-rapidapi-host': 'google-news22.p.rapidapi.com'
             }
-          };
+        };
 
         try {
             const response = await axios.request(options);
@@ -44,7 +44,6 @@ export default function News() {
                 <Spinner />
             ) : (
                 <div className='container'>
-                    <h1>News</h1>
                     <div className='row'>
                         {data.map((element) => (
                             <div key={element.url} className='col-md-4 d-flex justify-content-center my-3 mycard'>

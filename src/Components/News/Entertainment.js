@@ -44,7 +44,6 @@ export default function Entertainment() {
                 <Spinner />
             ) : (
                 <div className='container'>
-                    <h1>News</h1>
                     <div className='row'>
                         {data.map((element) => (
                             <div key={element.url} className='col-md-4 d-flex justify-content-center my-3 mycard'>
